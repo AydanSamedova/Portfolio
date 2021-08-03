@@ -20,13 +20,13 @@
                 <a class=navbar-brand href=#home> <img src=media/logo.png style="width: 150px; object-fit:cover;" alt="" /> </a> <button class="navbar-toggler open-nav" type=button aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation"> <div class=toggle-menu-wrapper> <div class=toggle-menu> <div class="line line1"></div> <div class="line line2"></div> <div class="line line3"></div> </div> </div> </button>
                 <div class="collapse navbar-collapse" id=navbarSupportedContent>
                     <ul class="navbar-nav ml-md-auto">
-                        <li class=nav-item> <a class=nav-link href=#home>Home <span class=sr-only>(current)</span></a> </li>
-                        <li class=nav-item> <a class=nav-link href=#about>About</a> </li>
-                        <li class=nav-item> <a class=nav-link href=#services>Services</a> </li>
-                        <li class=nav-item> <a class=nav-link href=#portfolio>Portfolio</a> </li>
-                        <li class=nav-item> <a class=nav-link href=#contact>Contact Me</a> </li>
-                        <li class=nav-item>
-                            <a href="media/front end developer (1).pdf" data-aos=fade-up style="color:white;text-decoration:none"> Download CV </a>
+                        <li class="nav-item"> <a class=nav-link href=#home>Home <span class=sr-only>(current)</span></a> </li>
+                        <li class="nav-item"> <a class=nav-link href=#about>About</a> </li>
+                        <li class="nav-item"> <a class=nav-link href=#services>Services</a> </li>
+                        <li class="nav-item"> <a class=nav-link href=#portfolio>Portfolio</a> </li>
+                        <li class="nav-item"> <a class=nav-link href=#contact>Contact Me</a> </li>
+                        <li class="nav-item btn-hover">
+                            <a href="media/front end developer (1).pdf" data-aos=fade-up style="color:black;text-decoration:none"> Download CV </a>
                         </li>
                     </ul>
                 </div>
@@ -39,7 +39,7 @@
                     <h1>Aydan Samedova</h1>
                     <h3>Front end Developer <img src=media/typer.svg alt="" style=margin-left:.2rem /></h3>
 
-                    <a href=#contact> <span>Hire Me</span> </a>
+                    <a href=#contact class="btn-hover"> <span>Hire Me</span> </a>
                 </div>
                 <div class=hero-image-wrapper style="border-radius: 50%;"> <img src=media/me.jpg alt=hero-image /> </div>
             </div>
@@ -69,7 +69,9 @@
                     </p>
                 </div>
 
-                <a href="media/front end developer (1).pdf" data-aos=fade-up> <span>Download CV</span> </a>
+                <a href="media/front end developer (1).pdf" class="btn-hover" data-aos=fade-up class="btn-hover"> <span>Download CV</span> </a>
+
+
             </div>
         </section>
         <section class="services-section container" id=services>
@@ -105,31 +107,32 @@
                     <h6>Html 5</h6>
                     <p>Structure is important to website</p>
                 </div>
-                <div class="card plan" data-aos=zoom-in data-aos-delay=400> <i class="fab fa-css3-alt" style="color:lightblue"></i>
+                <div class="card plan" data-aos=zoom-in data-aos-delay=400> <i class="fab fa-css3-alt" style="color:rgb(17, 147, 190)"></i>
                     <h6>Css 3</h6>
                     <p>I like funny animations, games and hover effects.</p>
                 </div>
                 <div class="card sketch" data-aos=zoom-in data-aos-delay=600> <i class="fab fa-js" style="color:orange"></i>
-                    <h6>Javascript </h6>
+                    <h6>Javascript/Jquery </h6>
                     <p>Javascript is deep and interesting.</p>
                 </div>
-                <div class="card design" data-aos=zoom-in data-aos-delay=800> <i class="fab fa-react" style="color:aqua"></i>
+                <div class="card design" data-aos=zoom-in data-aos-delay=800> <i class="fab fa-react" style="color:rgb(17, 202, 202)"></i>
                     <h6>React</h6>
                     <p>React is misteric for me and l like learn new things</p>
-                </div>
-                <div class="card design" data-aos=zoom-in data-aos-delay=1000> <i class="fab fa-python" style="color:yellow"></i>
-                    <h6>Python</h6>
-                    <p>I have basic knowledge flask and django .</p>
                 </div>
                 <div class="card design" data-aos=zoom-in data-aos-delay=1000> <i class="fab fa-git" style="color:red"></i>
                     <h6>Git</h6>
                     <p>Command system like a different world.</p>
                 </div>
+                <div class="card design" data-aos=zoom-in data-aos-delay=1000> <i class="fab fa-python" style="color:yellow"></i>
+                    <h6>Python</h6>
+                    <p>I have basic knowledge flask and django .</p>
+                </div>
+
                 <div class="card design" data-aos=zoom-in data-aos-delay=800> <i class="fab fa-github" style="color:white"></i>
                     <h6>Github</h6>
                     <p>Github is my home .</p>
                 </div>
-                <div class="card design" data-aos=zoom-in data-aos-delay=600> <i class="fas fa-code" style="color:cadetblue"></i>
+                <div class="card design" data-aos=zoom-in data-aos-delay=600> <i class="fas fa-code" style="color:rgb(28, 142, 146)"></i>
                     <h6>Visual Studio</h6>
                     <p>Every day together.</p>
                 </div>
@@ -137,10 +140,11 @@
                     <h6>Figma</h6>
                     <p>I create wireframes and sketches of the product I’m about to design</p>
                 </div>
-                <div class="card design" data-aos=zoom-in data-aos-delay=200> <i class="fab fa-bootstrap" style="color:indigo"></i>
+                <div class="card design" data-aos=zoom-in data-aos-delay=200> <i class="fab fa-bootstrap" style="color:rgb(125, 11, 206)"></i>
                     <h6>Bootstrap</h6>
                     <p>Sometimes I use it .</p>
                 </div>
+
 
             </div>
         </section>
@@ -156,72 +160,99 @@
                     <div class=profile-wrapper>
                         <div class=profile-card>
                             <h4>Online Consultation</h4>
-                            <p>Online Consultation - first practise (1 month) </p> <a href=https://github.com/AydanSamedova/FrontendMentorChallanges_and_figma#online-consultation-my-first-practise>View Code</a> </div>
+                            <p>Online Consultation - first practise (1 month) </p>
+                            <div class="card-buttons"> <a href="https://github.com/AydanSamedova/FrontendMentorChallanges_and_figma" target="_blank">View Code</a>
+                                <a href="http://psychologist.ancorathemes.com/" target="_blank">View Demo</a></div>
+                        </div>
                     </div>
                 </div>
                 <div class="profile-container port-container-2">
                     <div class=profile-wrapper>
                         <div class=profile-card>
                             <h4>Portfolio Example</h4>
-                            <p> Html5, Css3, Javascript, Responsive Design (3 day) </p> <a href=https://github.com/AydanSamedova/FrontendMentorChallanges_and_figma>View Code</a> </div>
+                            <p> Html5, Css3, Javascript, Responsive Design (3 day) </p>
+                            <div class="card-buttons"> <a href="https://github.com/AydanSamedova/FrontendMentorChallanges_and_figma" target="_blank">View Code</a>
+                                <a href="https://html-css-portfolio-css-grid-project.netlify.app/" target="_blank">View Demo</a></div>
+                        </div>
                     </div>
                 </div>
                 <div class="profile-container port-container-3">
                     <div class=profile-wrapper>
                         <div class=profile-card>
                             <h4>Trafalgar Landing Page</h4>
-                            <p>Html5, Scss, pseudo classes, javascript (4 days) </p> <a href=https://github.com/AydanSamedova/FrontendMentorChallanges_and_figma>View Code</a> </div>
+                            <p>Html5, Scss, pseudo classes, javascript (4 days) </p>
+                            <div class="card-buttons"> <a href="https://github.com/AydanSamedova/FrontendMentorChallanges_and_figma" target="_blank">View Code</a>
+                                <a href="https://www.figma.com/file/EWmzcVkd7qbP5Nf7iMvuqP/Trafalgar-Landing-Page?node-id=0%3A1" target="_blank">View Figma</a></div>
+                        </div>
                     </div>
                 </div>
                 <div class="profile-container port-container-4">
                     <div class=profile-wrapper>
                         <div class=profile-card>
                             <h4>Frispies Landing Page </h4>
-                            <p> Html5, Css3, common classes (2days)</p> <a href=https://github.com/AydanSamedova/FrontendMentorChallanges_and_figma>View Code</a> </div>
+                            <p> Html5, Css3, common classes (2days)</p>
+                            <div class="card-buttons"> <a href="https://github.com/AydanSamedova/FrontendMentorChallanges_and_figma" target="_blank">View Code</a>
+                                <a href="https://www.figma.com/file/Lep83EmAltTvdv0PckCN07/Frispes-Landing-Page---%5B-Free-UI-Kit-%5D-(Community)?node-id=63%3A54" target="_blank">View Figma</a></div>
+                        </div>
                     </div>
                 </div>
                 <div class="profile-container port-container-5">
                     <div class=profile-wrapper>
                         <div class=profile-card>
                             <h4>Frontend Mentor - EasyBank</h4>
-                            <p> Html5, Css3, Scss,Javascript,Responsive Design (4days) </p> <a href=https://www.behance.net/gallery/104417865/Photographers-Platform>View Profile</a> </div>
+                            <p> Html5, Css3, Scss,Javascript,Responsive Design (4days) </p>
+                            <div class="card-buttons"> <a href="https://github.com/AydanSamedova/FrontendMentorChallanges_and_figma" target="_blank">View Code</a>
+                                <a href="https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN" target="_blank">View Demo</a></div>
+                        </div>
                     </div>
                 </div>
                 <div class="profile-container port-container-6">
                     <div class=profile-wrapper>
                         <div class=profile-card>
                             <h4>Whack-a-mole</h4>
-                            <p> Vanilla Javascript (3 hours) </p> <a href=https://github.com/AydanSamedova/Javascript_games>View Code</a> </div>
+                            <p> Vanilla Javascript (3 hours) </p>
+                            <div class="card-buttons">
+                                <a href="https://github.com/AydanSamedova/FrontendMentorChallanges_and_figma" target="_blank">View Code</a></div>
+                        </div>
                     </div>
                 </div>
                 <div class="profile-container port-container-7">
                     <div class=profile-wrapper>
                         <div class=profile-card>
                             <h4>Memory Game</h4>
-                            <p> Vanilla Javascript (2 hours) </p> <a href=https://github.com/AydanSamedova/Javascript_games>View Code</a> </div>
+                            <p> Vanilla Javascript (2 hours) </p>
+                            <div class="card-buttons">
+                                <a href="https://github.com/AydanSamedova/FrontendMentorChallanges_and_figma" target="_blank">View Code</a></div>
+                        </div>
                     </div>
                 </div>
                 <div class="profile-container port-container-8">
                     <div class=profile-wrapper>
                         <div class=profile-card>
                             <h4>Almobile</h4>
-                            <p> Python(flask), html,css, javascript </p> <a href=https://github.com/AydanSamedova/Javascript_games>View Code</a> </div>
+                            <p> Python(flask), html,css, javascript </p>
+                            <div class="card-buttons"> <a href="https://github.com/AydanSamedova" target="_blank">View Code</a>
+                                <a href="http://almobile.az/" target="_blank">View Website</a></div>
+                        </div>
                     </div>
                 </div>
                 <div class="profile-container port-container-9">
                     <div class=profile-wrapper>
                         <div class=profile-card>
                             <h4>Tapavto</h4>
-                            <p> Design, html,css, javascript </p> <a href=https://github.com/AydanSamedova/Javascript_games>View Code</a> </div>
+                            <p> Design, html,css, javascript </p>
+                            <div class="card-buttons"> <a href="https://github.com/AydanSamedova" target="_blank">View Code</a>
+                                <a href="https://tapavto.az/" target="_blank">View Website</a></div>
+                        </div>
                     </div>
                 </div>
 
             </div>
-            <li class="nav-item" style="list-style:none;text-align: center;
+            <li class="nav-item btn-hover" style="list-style:none;text-align: center;
     margin: auto;
     list-style: none;
     width: 230px;">
-                <a href="https://github.com/AydanSamedova" style="color:white;text-decoration:none">More project</a>
+                <a href="https://github.com/AydanSamedova" target="_blank" style="color:black;text-decoration:none">More project</a>
             </li>
         </section>
         <section class="contact-section container" id=contact>
@@ -243,16 +274,17 @@
                     <div class=contact-info data-aos=fade-up>
                         <div class=contact-image-div> <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" color="black">
 <path d="M16 0C16.5304 0 17.0391 0.210714 17.4142 0.585786C17.7893 0.960859 18 1.46957 18 2V16C18 16.5304 17.7893 17.0391 17.4142 17.4142C17.0391 17.7893 16.5304 18 16 18H2C1.46957 18 0.960859 17.7893 0.585786 17.4142C0.210714 17.0391 0 16.5304 0 16V2C0 1.46957 0.210714 0.960859 0.585786 0.585786C0.960859 0.210714 1.46957 0 2 0H16ZM15.5 15.5V10.2C15.5 9.33539 15.1565 8.5062 14.5452 7.89483C13.9338 7.28346 13.1046 6.94 12.24 6.94C11.39 6.94 10.4 7.46 9.92 8.24V7.13H7.13V15.5H9.92V10.57C9.92 9.8 10.54 9.17 11.31 9.17C11.6813 9.17 12.0374 9.3175 12.2999 9.58005C12.5625 9.8426 12.71 10.1987 12.71 10.57V15.5H15.5ZM3.88 5.56C4.32556 5.56 4.75288 5.383 5.06794 5.06794C5.383 4.75288 5.56 4.32556 5.56 3.88C5.56 2.95 4.81 2.19 3.88 2.19C3.43178 2.19 3.00193 2.36805 2.68499 2.68499C2.36805 3.00193 2.19 3.43178 2.19 3.88C2.19 4.81 2.95 5.56 3.88 5.56ZM5.27 15.5V7.13H2.5V15.5H5.27Z" fill="white"/>
-</svg> </div> <a href="https://www.linkedin.com/in/aydan-samedova-6a8628196/">Aydan Samedova</a>
+</svg> </div> <a href="https://www.linkedin.com/in/aydan-samedova-6a8628196/" target="_blank">Aydan Samedova</a>
                     </div>
                     <div class=contact-info data-aos=fade-up>
-                        <div class=contact-image-div> <img src=media/contact-email.svg alt="" /> </div> <a href=aydansamedva@gmail.com>aydansamedva@gmail.com</a>
+                        <div class=contact-image-div> <img src=media/contact-email.svg alt="" /> </div> <a href="mailto:aydansamedva@gmail.com" target="_blank">aydansamedva@gmail.com</a>
                     </div>
 
                 </div>
-                <form class='contact-form' data-aos='fade-up' name='contact' method='POST'><input type='hidden' name='form-name' value='contact' />
-                    <p class=hidden style=visibility:hidden;height:0> <label>Don’t fill this out if you're human: <input name=bot-field /></label> </p> <input type=text placeholder="Full Name" name=name required/>
-                    <div> <input type=email placeholder=Email name=email required/> <input type=number placeholder="Phone Number" name=phone-number required/> </div> <textarea name=message id="" cols=30 rows=10 placeholder="Enter your message" required></textarea>                    <button type=submit>Submit</button> </form>
+
+                <img src="https://media.giphy.com/media/6wcBC9tsubD5jrDL6g/giphy.gif" class="contact-gif" alt="">
+
+
             </div>
         </section>
     </main>
@@ -267,7 +299,7 @@
                 <p>&copy; Copyright 2021. All right reserved</p>
             </div>
             <div>
-                <a href="https://www.linkedin.com/in/aydan-samedova-6a8628196/" target=_blank> <img src=media/linkedin.svg alt="link to twitter account" /> </a>
+                <a href="https://www.linkedin.com/in/aydan-samedova-6a8628196/" target=_blank> <img src=media/linkedin.svg target="_blank" alt="link to twitter account" /> </a>
 
                 <a href="https://github.com/AydanSamedova" target=_blank> <i class="fab fa-github" style="color: white;
     font-size: 23px;"></i> </a>
@@ -308,13 +340,15 @@
                     <li class="nav-list-item mobile-link"> <a href=#services class=nav-link>Services</a> </li>
                     <li class="nav-list-item mobile-link"> <a href=#portfolio class=nav-link>Portfolio</a> </li>
                     <li class="nav-list-item mobile-link"> <a href=#contact class=nav-link>Contact Me</a> </li>
-                    <li class="nav-list-item mobile-link case-studies"> <a class="nav-link case-studies" href=./caseStudies.html>Case Studies</a> </li>
+                    <li class="nav-list-item mobile-link case-studies btn-hover"> <a class="nav-link case-studies" href="media/front end developer (1).pdf">Downlade Cv</a> </li>
                 </ul>
             </nav>
         </div>
     </div>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/easypiechart.min.js></script>
     <script type="text/javascript" src="main.js"></script>
+
+
 </body>
 
 </html>

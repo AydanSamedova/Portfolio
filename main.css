@@ -2805,6 +2805,7 @@ pre code {
 .table-hover .table-primary:hover>td,
 .table-hover .table-primary:hover>th {
     background-color: #9fcdff;
+    transition: all 0.4s ease-in-out;
 }
 
 .table-secondary,
@@ -11296,6 +11297,10 @@ header {
     font-weight: 700;
 }
 
+.nav-item .nav-link:hover {
+    color: #0ff;
+}
+
 .nav-item .nav-link.case-studies {
     color: #303030;
 }
@@ -11701,11 +11706,13 @@ footer>div>div:nth-of-type(3) {
 
 .services-card:hover {
     background: #0fb;
+    transition: all 0.4s ease-in-out;
 }
 
 .services-card:hover h5,
 .services-card:hover p {
     color: #303030;
+    transition: all 0.4s ease-in-out;
 }
 
 @media (max-width: 500px) {
@@ -12079,6 +12086,7 @@ body {
 
 .workflow-section .cards-wrapper .card:hover {
     background: #0fb;
+    transition: all 0.4s ease-in-out;
 }
 
 .workflow-section .cards-wrapper .card:hover h6,
@@ -12935,4 +12943,27 @@ main {
 .cards-wrapper i {
     font-size: 44px;
     margin: auto;
+}
+
+.card-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-gif {
+    width: 440px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 11%;
+}
+
+.btn-hover:hover {
+    background: #0ff;
+    transition: all 0.4s ease-in-out;
+}
+
+.hero-wrapper .hero-text-wrapper a:hover {
+    background: #0ff;
+    transition: all 0.4s ease-in-out;
 }
