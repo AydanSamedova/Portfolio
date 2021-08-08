@@ -11298,7 +11298,8 @@ header {
 }
 
 .nav-item .nav-link:hover {
-    color: #0ff;
+    color: rgb(209, 28, 245);
+    font-weight: bold;
 }
 
 .nav-item .nav-link.case-studies {
@@ -11313,7 +11314,7 @@ header {
     padding-bottom: 7rem;
     background: #212121;
     position: relative;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 @media (max-width: 600px) {
@@ -11368,7 +11369,7 @@ header {
     font-family: SF Pro Display, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 7.2rem;
+    font-size: 5rem;
     line-height: 8.6rem;
     color: #fff;
     margin-bottom: 1.6rem;
@@ -11463,8 +11464,10 @@ header {
 }
 
 .hero-wrapper .hero-image-wrapper img {
-    height: 55rem;
-    width: 55rem;
+    height: 45rem;
+    width: 45rem;
+    border: 15px solid rgba(240, 239, 239, 0.801);
+    border-radius: 50%;
 }
 
 @media (max-width: 1090px) {
@@ -12190,7 +12193,7 @@ body {
 }
 
 .flex-container .port-container-2:before {
-    background-image: url('media/port.png');
+    background-image: url('media/portfolo.png');
 }
 
 .flex-container .port-container-3:before {
@@ -12850,9 +12853,11 @@ body {
     }
 }
 
+
+/* 
 main {
-    margin-bottom: 30rem;
-}
+    margin-bottom: 2rem;
+} */
 
 .case-studies-body {
     display: flex;
@@ -12959,11 +12964,11 @@ main {
 }
 
 .btn-hover:hover {
-    background: #0ff;
+    background: rgb(209, 28, 245);
     transition: all 0.4s ease-in-out;
 }
 
 .hero-wrapper .hero-text-wrapper a:hover {
-    background: #0ff;
+    background: rgb(209, 28, 245);
     transition: all 0.4s ease-in-out;
 }
