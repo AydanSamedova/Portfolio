@@ -11308,7 +11308,7 @@ header {
 
 .hero-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     padding-bottom: 7rem;
@@ -11466,7 +11466,7 @@ header {
 .hero-wrapper .hero-image-wrapper img {
     height: 45rem;
     width: 45rem;
-    border: 15px solid rgba(240, 239, 239, 0.801);
+    border: 10px solid rgba(255, 255, 255, 0.877);
     border-radius: 50%;
 }
 
@@ -12964,11 +12964,11 @@ main {
 }
 
 .btn-hover:hover {
-    background: rgb(209, 28, 245);
+    background: rgb(221, 141, 236);
     transition: all 0.4s ease-in-out;
 }
 
 .hero-wrapper .hero-text-wrapper a:hover {
-    background: rgb(209, 28, 245);
+    background: rgb(221, 141, 236);
     transition: all 0.4s ease-in-out;
 }
